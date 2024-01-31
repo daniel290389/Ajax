@@ -30,7 +30,12 @@ xhr.addEventListener("readystatechange",(e) =>{
 
         });
         $xhr.appendChild($fragmento)
-    }else{console.log("!!Error de conexion ")}
+    }else{console.log("!!Error de conexion ")
+let mensaje = xhr.statusText || "Ocurrio un error ";
+$xhr.innerHTML= `Error ${xhr.status}: ${mensaje}`;
+
+
+}
 
 console.log(xhr);
 
