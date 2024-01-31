@@ -53,5 +53,9 @@ xhr.send();
  * readystatecahnge ontimemout  status  statustext
  * status= 404 no nos sirve
 parse=convierte de json a javascript
+para ingresar en git haty que ir  a los tres puntos 
+luego la v 
+luego insertar o push
+
  * 
  *  */
